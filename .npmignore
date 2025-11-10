@@ -1,0 +1,5 @@
+cmake/
+include/
+test/
+.travis.yml
+build.cfg

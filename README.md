@@ -1,30 +1,53 @@
 # ⛳ flags
 [![Build Status](https://travis-ci.org/sailormoon/flags.svg?branch=master)](https://travis-ci.org/sailormoon/flags)
 
-Simple, extensible, header-only C++17 argument parser released into the public domain.
+Simple, extensible, header-only C++17 argument parser released into the public domain, by [sailormoon](https://github.com/sailormoon).
 
 
 <!-- vim-markdown-toc GFM -->
 
-* [why](#why)
-* [requirements](#requirements)
-* [api](#api)
-  * [get](#get)
-  * [get (with default value)](#get-with-default-value)
-  * [positional](#positional)
-* [usage](#usage)
-  * [example](#example)
-  * [another example](#another-example)
-  * [extensions](#extensions)
-    * [example](#example-1)
-  * [command line details](#command-line-details)
-    * [key formatting](#key-formatting)
-    * [value assignment](#value-assignment)
-      * [bools](#bools)
-* [testing](#testing)
-* [contributing](#contributing)
+- [⛳ flags](#-flags)
+- [installation](#installation)
+- [why](#why)
+- [requirements](#requirements)
+- [api](#api)
+  - [get](#get)
+  - [get (with default value)](#get-with-default-value)
+  - [get\_multiple](#get_multiple)
+  - [get\_multiple (with default value)](#get_multiple-with-default-value)
+  - [get (positional)](#get-positional)
+  - [get (positional with default value)](#get-positional-with-default-value)
+  - [positional](#positional)
+- [usage](#usage)
+    - [just the headers](#just-the-headers)
+  - [Using CMake](#using-cmake)
+    - [CMake Installation](#cmake-installation)
+    - [`find_package`](#find_package)
+    - [`add_subdirectory`](#add_subdirectory)
+  - [example](#example)
+  - [another example](#another-example)
+  - [extensions](#extensions)
+    - [example](#example-1)
+  - [command line details](#command-line-details)
+    - [key formatting](#key-formatting)
+    - [value assignment](#value-assignment)
+      - [bools](#bools)
+- [testing](#testing)
+- [contributing](#contributing)
 
 <!-- vim-markdown-toc -->
+
+# installation
+
+Run:
+```bash
+$ npm i flags.cxx
+```
+
+And then include `flags.h` as follows:
+```c
+#include "node_modules/flags.cxx/include/flags.h"
+```
 
 # why
 Other argument parsers are:
@@ -266,3 +289,10 @@ flags uses both [bfg9000](https://github.com/jimporter/bfg9000) and [mettle](htt
 
 # contributing
 Contributions of any variety are greatly appreciated. All code is passed through `clang-format` using the Google style.
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/flags.cxx)

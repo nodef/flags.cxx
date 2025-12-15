@@ -1,0 +1,25 @@
+{
+  "name": "flags.cxx",
+  "version": "1.1.0",
+  "description": "⛳ Simple, extensible, header-only C++17 argument parser released into the public domain; sailormoon (2016).",
+  "keywords": [
+    "c",
+    "library",
+    "argument-parser",
+    "command-line",
+    "flags",
+    "options",
+    "header-only",
+    "public-domain"
+  ],
+  "homepage": "https://github.com/nodef/flags.cxx#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/flags.cxx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/flags.cxx.git"
+  },
+  "license": "UNLICENSED",
+  "main": "flags.h"
+}
